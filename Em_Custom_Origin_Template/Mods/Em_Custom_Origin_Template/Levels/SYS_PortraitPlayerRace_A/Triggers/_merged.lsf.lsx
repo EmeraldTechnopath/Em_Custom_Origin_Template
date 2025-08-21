@@ -3,7 +3,7 @@
 	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids,lsf_adjacency" />
 	<region id="Templates">
 		<node id="Templates">
-			<children>
+			<children> <!-- This file sets up custom triggers for generating an icon, so you can pick the background of your origin's generated icon. -->
                 <node id="GameObjects">
 					<attribute id="Flag" type="int32" value="1" />
 					<attribute id="LevelName" type="FixedString" value="SYS_PortraitPlayerRace_A" />

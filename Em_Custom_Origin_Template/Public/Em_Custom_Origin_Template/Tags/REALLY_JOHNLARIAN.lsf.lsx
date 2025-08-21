@@ -2,7 +2,7 @@
 <save>
 	<version major="4" minor="0" revision="0" build="58" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
 	<region id="Tags">
-		<node id="Tags">
+		<node id="Tags"> <!-- This whole thing kinda doesn't do anything unless you're planning to add custom dialogue or something else that would look at the REALLY tag. You can remove it if you want. -->
 			<attribute id="Description" type="LSString" value="|Really JohnLarian Origin|" />
 			<attribute id="DisplayDescription" type="TranslatedString" handle="hbc5ad9b5gd2c4g4774ga732g67212c7d940b" version="1" />
 			<attribute id="DisplayName" type="TranslatedString" handle="h27a57bbfg7f65g4024gbf8bg7cf7ca03c1b6" version="3" />

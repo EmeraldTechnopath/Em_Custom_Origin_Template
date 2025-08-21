@@ -1,3 +1,4 @@
+// You can set your custom origin's starting equipment in here.
 new equipment "EQ_JohnLarian"
 add initialweaponset "Melee"
 add equipmentgroup
