@@ -29,7 +29,7 @@
                     <attribute id="VoiceTableUUID" type="guid" value="38084b2c-67aa-4804-8f95-448dde095c06"/> <!-- Set your origin's voice. This is Voice 7. If you want the voice to be pickable, set the table back to 5ee56242-d07c-482e-9260-24529d1473a3 which is the voice table for generic Tav. -->
                     <children>
                         <node id="ReallyTags">
-                            <attribute id="Object" type="guid" value="264a6880-9a51-429c-a9fc-97f8952baf90"/> <!-- REALLY tag for generic Tav. -->
+                            <attribute id="Object" type="guid" value="264a6880-9a51-429c-a9fc-97f8952baf90"/> <!-- REALLY tag for generic Tav. The REALLY Dark Urge tag is cd611d7d-b67d-42b4-a75c-a0c6091ef8a2 -->
                         </node>
                         <node id="ReallyTags">
                             <attribute id="Object" type="guid" value="b6003d63-6c41-4335-a889-ca09e1a719b5"/> <!-- Custom REALLY tag for your origin. Regenerate this, or remove it if you want. -->
