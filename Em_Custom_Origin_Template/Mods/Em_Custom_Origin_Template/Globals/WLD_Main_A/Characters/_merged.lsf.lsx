@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids,lsf_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+                <node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="ORI_Karlach_CampFix" />
+					<attribute id="Archetype" type="FixedString" value="melee_smart" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="14a88f80-6dbf-40b6-adc1-5c0e12ea48ce" />
+					<attribute id="Faction" type="guid" value="8e465ee5-ad2b-008b-966b-d1641e37e3c5" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_JohnLarian" />
+					<attribute id="HasPlayerApprovalRating" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="6aa4547a-30c3-417b-aafa-8795a10eea87_(Origin_JohnLarian_Icon)" />
+					<attribute id="IsGlobal" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="6aa4547a-30c3-417b-aafa-8795a10eea87" />
+					<attribute id="Name" type="LSString" value="Origin_JohnLarian" />
+					<attribute id="Race" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" />
+					<attribute id="SoftBodyCollisionTemplate" type="FixedString" value="e96eed75-850b-4497-b077-a8f62f731bf3" />
+					<attribute id="Stats" type="FixedString" value="POC_Player_Fighter" />
+					<attribute id="TemplateName" type="FixedString" value="d15a87f4-0b02-4e06-80fe-c3fe3b5f7d0d" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922056" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="9222db25-d5ca-061f-7dc2-1f8c1dbadff9" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="e2c9204f-0ac6-bdd4-8d9d-8bd094f3c4a6" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="c27cf770-ee6a-4206-a97f-62c9d16f6239" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="110.732735 21.937597 500.21136" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.99999595 0 -0.0028609233" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

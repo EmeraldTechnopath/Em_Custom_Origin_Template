@@ -1,0 +1,2 @@
+coordinates: 38.079998016357 0.0     28.08881187439
+level: SYS_PortraitPlayerRace_A
