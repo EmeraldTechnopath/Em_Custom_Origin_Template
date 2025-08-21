@@ -256,7 +256,7 @@
 						<node id="Slots">
 							<attribute id="Bone" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="NakedBody" />
-							<attribute id="VisualResource" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" /> <!-- Naked body mesh -->
+							<attribute id="VisualResource" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" /> <!-- Naked body mesh, if you had a custom body, you'd set it up here -->
 						</node>
 						<node id="Slots">
 							<attribute id="Bone" type="FixedString" value="" />
