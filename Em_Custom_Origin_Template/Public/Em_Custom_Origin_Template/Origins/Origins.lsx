@@ -15,7 +15,7 @@
                     <attribute id="Description" type="TranslatedString" handle="hbc5ad9b5gd2c4g4774ga732g67212c7d940b" version="2"/> <!-- Description of your origin. -->
                     <attribute id="GlobalTemplate" type="guid" value="6aa4547a-30c3-417b-aafa-8795a10eea87"/>
                     <attribute id="IntroDialogUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/> <!-- Empty UUID since most custom origins won't have intro dialogs. -->
-                    <attribute id="LockBody" type="bool" value="false"/> <!-- True = Locked body, False = Editable body -->
+                    <attribute id="LockBody" type="bool" value="true"/> <!-- True = Locked body, False = Editable body. Bad things seem to happen when you try to make the body editable. -->
                     <attribute id="LockClass" type="bool" value="false"/> <!-- True = Locked class, False = Editable class -->
                     <attribute id="LockRace" type="bool" value="false"/> <!-- True = Locked race, False = Editable race -->
                     <attribute id="Name" type="FixedString" value="JohnLarian"/> <!-- Internal name -->
@@ -32,7 +32,7 @@
                             <attribute id="Object" type="guid" value="264a6880-9a51-429c-a9fc-97f8952baf90"/> <!-- REALLY tag for generic Tav. -->
                         </node>
                         <node id="ReallyTags">
-                            <attribute id="Object" type="guid" value="b6003d63-6c41-4335-a889-ca09e1a719b5"/> <!-- Custom REALLY tag. Regenerate this. -->
+                            <attribute id="Object" type="guid" value="b6003d63-6c41-4335-a889-ca09e1a719b5"/> <!-- Custom REALLY tag for your origin. Regenerate this, or remove it if you want. -->
                         </node>
                     </children>
                 </node>

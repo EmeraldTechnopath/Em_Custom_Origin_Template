@@ -3,8 +3,6 @@ add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Dagger_Rusty"
 add equipmentgroup
-add equipment entry "OBJ_ArrowOfIce"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -19,10 +17,10 @@ add equipment entry "OBJ_Keychain"
 add equipmentgroup
 add equipment entry "OBJ_Bag_AlchemyPouch"
 add equipmentgroup
-add equipment entry "ARM_Camp_Pants_A"
+add equipment entry "ARM_Vanity_Body_Pants"
 add equipmentgroup
-add equipment entry "BASE_Vanity_Shoes_Camp"
+add equipment entry "ARM_Camp_Shoes"
 add equipmentgroup
 add equipment entry "OBJ_Backpack_CampSupplies"
 add equipmentgroup
-add equipment entry "Underwear_HalfOrcs_A"
+add equipment entry "ARM_Underwear_HalfOrcs"

@@ -24,7 +24,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144255925564211200" />
 					<children>
 						<node id="LocomotionParams" />
-						<node id="Tags">
+						<node id="Tags"> <!-- These tags seem to be standard for origins, so I left them alone. -->
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="1eec74e8-3673-4500-abec-57b7ed8469ed" />
