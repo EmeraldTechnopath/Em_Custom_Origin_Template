@@ -7,8 +7,8 @@
                 <node id="GameObjects">
 					<attribute id="Flag" type="int32" value="1" />
 					<attribute id="LevelName" type="FixedString" value="SYS_PortraitPlayerRace_A" />
-					<attribute id="MapKey" type="FixedString" value="99068e13-3760-4062-b352-458648979735" />
-					<attribute id="Name" type="LSString" value="Icon_JohnLarian" />
+					<attribute id="MapKey" type="FixedString" value="99068e13-3760-4062-b352-458648979735" /> <!-- Regenerate this if making custom trigger. -->
+					<attribute id="Name" type="LSString" value="Icon_JohnLarian" /> <!-- I believe this has to match the name of the GeneratePortrait value in your root templates. -->
 					<attribute id="OnlyOsirisEvents" type="bool" value="False" />
 					<attribute id="TemplateName" type="FixedString" value="15111ce4-12fc-4757-bb81-7c2c212e141a" />
 					<attribute id="Type" type="FixedString" value="trigger" />
@@ -32,13 +32,13 @@
 							</children>
 						</node>
 						<node id="Transform">
-							<attribute id="Position" type="fvec3" value="38 0 28" /> <!-- 58 0 32 -->
-							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
-							<attribute id="Scale" type="float" value="1" />
+							<attribute id="Position" type="fvec3" value="38 0 28" /> <!-- Position of your character in the level. -->
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" /> <!-- Rotation of your character in the level. -->
+							<attribute id="Scale" type="float" value="1" /> <!-- Scale of your character in the level. -->
 						</node>
 					</children>
 				</node>
-                <node id="GameObjects">
+                <node id="GameObjects"> <!-- This is the camera trigger. I don't know what most of it does to be honest. -->
 					<attribute id="DOFAperature" type="float" value="21" />
 					<attribute id="DOFFarOnly" type="float" value="0" />
 					<attribute id="DOFFarSharpDistance" type="float" value="0" />
@@ -49,7 +49,7 @@
 					<attribute id="Flag" type="int32" value="1" />
 					<attribute id="Lerp" type="bool" value="True" />
 					<attribute id="LevelName" type="FixedString" value="SYS_PortraitPlayerRace_A" />
-					<attribute id="MapKey" type="FixedString" value="75a6158f-1119-4c31-be55-8d28ce444904" />
+					<attribute id="MapKey" type="FixedString" value="75a6158f-1119-4c31-be55-8d28ce444904" /> <!-- Regenerate this if making custom trigger. -->
 					<attribute id="Name" type="LSString" value="Camera_Icon_JohnLarian" />
 					<attribute id="OnlyOsirisEvents" type="bool" value="False" />
 					<attribute id="Speed" type="float" value="5" />
@@ -76,9 +76,9 @@
 							</children>
 						</node>
 						<node id="Transform">
-							<attribute id="Position" type="fvec3" value="38 1.7499996 26.8" /> <!-- 58 1.7499996 30.74998 -->
-							<attribute id="RotationQuat" type="fvec4" value="-3.7252903E-09 0 0 1" />
-							<attribute id="Scale" type="float" value="1" />
+							<attribute id="Position" type="fvec3" value="38 1.7499996 26.8" /> <!-- Position of the camera in the level. -->
+							<attribute id="RotationQuat" type="fvec4" value="-3.7252903E-09 0 0 1" /> <!-- Rotation of the camera in the level. -->
+							<attribute id="Scale" type="float" value="1" /> <!-- Scale of the camera in the level. -->
 						</node>
 					</children>
 				</node>
