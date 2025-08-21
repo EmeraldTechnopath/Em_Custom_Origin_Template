@@ -4,12 +4,12 @@
 	<region id="CharacterVisualBank">
 		<node id="CharacterVisualBank">
 			<children>
-				<node id="Resource">
+				<node id="Resource"> <!-- This defines the default appearance of your origin. -->
 					<attribute id="BaseVisual" type="FixedString" value="3773c64c-c5a9-9baf-1b85-6bee029ee044" /> <!-- Animations for your origin, make sure you set the correct animations for your body type to avoid eldritch horrors. -->
-					<attribute id="BodySetVisual" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" /> <!-- Body type for your origin. -->
-					<attribute id="ID" type="FixedString" value="14a88f80-6dbf-40b6-adc1-5c0e12ea48ce" />
-					<attribute id="Name" type="LSString" value="S_Origin_JohnLarian" />
-					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />
+					<attribute id="BodySetVisual" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" /> <!-- Body type for your origin. If you had a custom body, you'd set it up here. -->
+					<attribute id="ID" type="FixedString" value="14a88f80-6dbf-40b6-adc1-5c0e12ea48ce" /> <!-- Regenerate this! -->
+					<attribute id="Name" type="LSString" value="S_Origin_JohnLarian" /> <!-- Internal name. -->
+					<attribute id="ShowEquipmentVisuals" type="bool" value="True" /> <!-- Whether or not to show the visuals of equipment in the world. I'd leave this as True unless you want a naked origin. -->
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
 					<children>
 						<node id="MaterialOverrides">
@@ -37,11 +37,12 @@
 										</node>
 									</children>
 								</node>
+								<!-- Most of the below parameters set things like freckles, makeup colors and intensity, etc. Usually the name is self-explanatory. -->
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
 									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="IsTav" /> <!-- This parameter seems to determine whether KAVT will apply stuff like body tattoos to your character -->
+									<attribute id="Parameter" type="FixedString" value="IsTav" /> <!-- This parameter seems to determine whether KAVT will apply stuff like body tattoos to your character. -->
 									<attribute id="Value" type="float" value="0" /> <!-- 1 = Yes, 0 = No -->
 								</node>
 								<node id="ScalarParameters">
@@ -236,6 +237,7 @@
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
+						<!-- The below slots set the meshes your origin will use. You can add new ones to any existing slot, for example, Horns slot or Tail slot. -->
 						<node id="Slots">
 							<attribute id="Bone" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="Head" />

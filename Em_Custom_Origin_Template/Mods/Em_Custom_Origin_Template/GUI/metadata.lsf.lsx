@@ -7,7 +7,7 @@
 				<node id="entries">
 					<children>
 						<node id="Object">
-							<attribute id="MapKey" type="FixedString" value="Assets/Portraits/6aa4547a-30c3-417b-aafa-8795a10eea87_(Origin_JohnLarian_Icon).png" /> <!-- Set this to the exact path of your origin's icon. Except it says PNG for some reason. I don't know why but the actual icon file needs to be DDS. -->
+							<attribute id="MapKey" type="FixedString" value="Assets/Portraits/6aa4547a-30c3-417b-aafa-8795a10eea87_(Origin_JohnLarian_Icon).png" /> <!-- Set this to the exact path of your origin's icon. Except it says PNG for some reason. I don't know why, but the actual icon file needs to be DDS. -->
 							<children>
 								<node id="entries"> <!-- Size of the icon. -->
 									<attribute id="h" type="int16" value="152" />
