@@ -27,7 +27,7 @@
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="03Hair" />
 											<attribute id="MapKey" type="FixedString" value="03Hair" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="850616b0-491f-add8-a2a0-3fef9aada7d5" /> <!-- Hair color: brown 5 -->
+											<attribute id="MaterialPresetResource" type="FixedString" value="b5885fa2-ec81-4dfb-99d9-e03febe10c8c" /> <!-- Hair color: custom john larian brown color -->
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="False" />

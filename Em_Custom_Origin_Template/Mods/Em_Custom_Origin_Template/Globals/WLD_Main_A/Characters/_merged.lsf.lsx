@@ -17,7 +17,7 @@
 					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" /> <!-- Defines the level, but your origin still spawns on the Nautiloid, so I'm not sure what it affects. -->
 					<attribute id="MapKey" type="FixedString" value="6aa4547a-30c3-417b-aafa-8795a10eea87" /> <!-- Regenerate this! -->
 					<attribute id="Name" type="LSString" value="Origin_JohnLarian" /> <!-- Internal name. -->
-					<attribute id="Race" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" /> <!-- Set your origin's race. -->
+					<attribute id="Race" type="guid" value="3ec77ccb-1511-4b4a-a7e7-8922b959fbd2" /> <!-- Set your origin's race. -->
 					<attribute id="SoftBodyCollisionTemplate" type="FixedString" value="4350b66a-f56a-4f2a-9c60-b5a56609afa4" /> <!-- I don't know what this does but I'd set it to the softbody for your race/body type. -->
 					<attribute id="Stats" type="FixedString" value="POC_Player_Fighter" /> <!-- Swap these with the default stats for your class, or for custom stats. -->
 					<attribute id="TemplateName" type="FixedString" value="d15a87f4-0b02-4e06-80fe-c3fe3b5f7d0d" /> <!-- Links back to your origin's root template. Regenerate this! -->
