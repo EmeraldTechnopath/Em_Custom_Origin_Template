@@ -22,7 +22,7 @@
                     <attribute id="LockRace" type="bool" value="true"/> <!-- True = Locked race, False = Editable race -->
                     <attribute id="Name" type="FixedString" value="JohnLarian"/> <!-- Internal name -->
                     <attribute id="Passives" type="LSString" value="DeathSavingThrows"/> <!-- Add any passives you want here. -->
-                    <attribute id="RaceUUID" type="guid" value="3ec77ccb-1511-4b4a-a7e7-8922b959fbd2"/> <!-- Set your origin's race here. This is a custom copy of Human race. If you don't have a need for a custom race, just put the regular race UUID here. -->
+                    <attribute id="RaceUUID" type="guid" value="3ec77ccb-1511-4b4a-a7e7-8922b959fbd2"/> <!-- Set your origin's race here. This is a custom copy of Human race. If you don't have a need for a custom race, just put the regular race UUID here. E.g. vanilla Human is 0eb594cb-8820-4be6-a58d-8be7a1a98fba -->
                     <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/> <!-- Set your origin's subrace here. (Empty here because humans don't have subraces.) -->
                     <attribute id="ClassUUID" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/> <!-- Set your origin's class here. -->
                     <attribute id="SubClassUUID" type="guid" value="0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf"/> <!-- Set your origin's subclass here. -->
