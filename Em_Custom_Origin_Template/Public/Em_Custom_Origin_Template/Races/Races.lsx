@@ -4,6 +4,17 @@
     <region id="Races">
         <node id="root">
             <children>
+                <node id="Race">
+                    <attribute id="MergedInto" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="Name" type="FixedString" value="Human"/>
+                    <attribute id="UUID" type="guid" value="6f7cad74-266c-4da3-bfe2-6f0698d0da12"/>
+                    <children>
+                        <node id="HairColors">
+                            <attribute id="Object" type="guid" value="6f7cad74-266c-4da3-bfe2-6f0698d0da12"/> 
+							<!--This needs to match the UUID guid value in the CharacterCreationHairColors entry-->
+                        </node>
+                    </children>
+                </node>
                 <node id="Race"> <!-- In here we have a fake custom race to prevent the issue with modded colors snapping back to their defaults. Most of this is the same as the regular Human race. -->
                     <attribute id="Description" type="TranslatedString" handle="h2994b091g4bedg4119gbc9bg47002fd0af27" version="3"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hcaaefc8eg4387g4b64ga941g8a82ac8a2eba" version="1"/>
