@@ -19,6 +19,9 @@
 							<attribute id="Name" type="LSString" value="Dialog" />
 						</node>
 						<node id="Category">
+							<attribute id="Name" type="LSString" value="Origin" />
+						</node>
+						<node id="Category">
 							<attribute id="Name" type="LSString" value="DialogHidden" />
 						</node>
 						<node id="Category">
